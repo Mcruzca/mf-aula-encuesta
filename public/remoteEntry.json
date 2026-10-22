@@ -1,0 +1,10 @@
+{
+  "name": "encuesta",
+  "shared": [],
+  "exposes": [
+    {
+      "key": "./Widget",
+      "outFileName": "widget.js"
+    }
+  ]
+}
