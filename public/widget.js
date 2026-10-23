@@ -6,7 +6,7 @@ class Encuesta extends HTMLElement {
    this.control = new AbortController();
    this.shadowRoot.innerHTML = `
     <style>:host {display:block} section {border:2px solid #087f8c;padding:20px;border-radius:8px} button {padding:10px;margin:5px;cursor:pointer}</style>
-    <section><small>JAVASCRIPT PURO · localhost:4304</small><h2>Encuesta del taller</h2>
+    <section><small>JAVASCRIPT PURO · repositorio mf-aula-encuesta</small><h2>Encuesta del taller</h2>
     <p id="saludo"></p><p>¿Te quedó clara la explicación?</p>
     <button data-respuesta="Sí, entendí">Sí, entendí</button>
     <button data-respuesta="Necesito otro ejemplo">Otro ejemplo</button>
